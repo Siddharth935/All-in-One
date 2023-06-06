@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onetouch">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OneTouch">
+        <activity
+            android:name=".Entrace.HigherEducation"
+            android:exported="true" />
+        <activity
+            android:name=".Entrace.JeeAdvanceWebView"
+            android:exported="true" />
+        <activity
+            android:name=".webViews.France"
+            android:exported="true" />
+        <activity
+            android:name=".webViews.England"
+            android:exported="true" />
+        <activity
+            android:name=".webViews.Brazil"
+            android:exported="true" />
+        <activity
+            android:name=".webViews.Belgium"
+            android:exported="true" />
+        <activity
+            android:name=".webViews.Argentina"
+            android:exported="true" />
+        <activity
+            android:name=".Sports.FIFA"
+            android:exported="true" />
+        <activity
+            android:name=".webViews.WI"
+            android:exported="true" />
+        <activity
+            android:name=".webViews.PCB"
+            android:exported="true" />
+        <activity
+            android:name=".webViews.CA"
+            android:exported="true" />
+        <activity
+            android:name=".webViews.ECB"
+            android:exported="true" />
+        <activity
+            android:name=".webViews.BCC"
+            android:exported="true" />
+        <activity
+            android:name=".Sports.iccCategories"
+            android:exported="true" />
+        <activity
+            android:name=".Sports.Sportscat"
+            android:exported="true" />
+        <activity
+            android:name=".Sports.ICC"
+            android:exported="true" />
+        <activity
+            android:name=".SocialMedia.WhatsAppStautsSaver"
+            android:exported="true" />
+        <activity
+            android:name=".NewsWebsite.RepublicTv"
+            android:exported="true" />
+        <activity
+            android:name=".NewsWebsite.News24"
+            android:exported="true" />
+        <activity
+            android:name=".NewsWebsite.ABPNews"
+            android:exported="true" />
+        <activity
+            android:name=".NewsWebsite.AajTak"
+            android:exported="true" />
+        <activity
+            android:name=".NewsWebsite.ZeeBuisness"
+            android:exported="true" />
+        <activity
+            android:name=".NewsWebsite.BbcNews"
+            android:exported="true" />
+        <activity
+            android:name=".NewsWebsite.Ctegaries_news_website"
+            android:exported="true" />
+        <activity
+            android:name=".NewsWebsite.TypeOfNews"
+            android:exported="true" />
+        <activity
+            android:name=".News"
+            android:exported="true" />
+        <activity
+            android:name=".NewsDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".InstaDownloader"
+            android:exported="true" />
+        <activity
+            android:name=".VideoDownloder"
+            android:exported="true" />
+        <activity
+            android:name=".Entrace.Academics"
+            android:exported="true" />
+        <activity
+            android:name=".Entrace.AdvanceJee"
+            android:exported="true" />
+        <activity
+            android:name=".Entrace.Gate"
+            android:exported="true" />
+        <activity
+            android:name=".Entrace.Cat"
+            android:exported="true" />
+        <activity
+            android:name=".Entrace.Upsc"
+            android:exported="true" />
+        <activity
+            android:name=".Entrace.Neet"
+            android:exported="true" />
+        <activity
+            android:name=".CategoriesOfSocialMedia"
+            android:exported="true" />
+        <activity
+            android:name=".webViews.JeeWebActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="true" />
+        <activity
+            android:name=".Entrace.Jee"
+            android:exported="true" />
+        <activity
+            android:name=".EntranceExam"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.SuperApp.hidenavAndStatusBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Auth"
+            android:exported="true"
+            android:theme="@style/Theme.SuperApp.hidenavAndStatusBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

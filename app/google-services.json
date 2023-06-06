@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "248136759736",
+    "project_id": "superapp-da53a",
+    "storage_bucket": "superapp-da53a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248136759736:android:3e14efc81b4b21e1f5374d",
+        "android_client_info": {
+          "package_name": "com.example.onetouch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248136759736-q17c0bijbp607f73t0m2bs0dq6oole7n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onetouch",
+            "certificate_hash": "a51a5ac6685806e74f7394ae4a6d28317cea92ac"
+          }
+        },
+        {
+          "client_id": "248136759736-5s5hpi7f83l3ic869cfc7vt624pf34rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIK5q8dqoooejLuo6le5Klz5Vlh_IwF4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248136759736-5s5hpi7f83l3ic869cfc7vt624pf34rv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

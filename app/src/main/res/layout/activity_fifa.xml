@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sports.FIFA">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/cutom_toolbar" />
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/entranceexam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/alike_angular"
+                android:text="@string/top_5_fifa_members"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Brazil"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:text="@string/brazil"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:cornerRadius="15dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Belgium"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:text="@string/belgium"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:cornerRadius="15dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Argentina"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:text="@string/argentina"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:cornerRadius="15dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/France"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:text="@string/france"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:cornerRadius="15dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/England"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:text="@string/england"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:cornerRadius="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".NewsWebsite.Ctegaries_news_website">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/cutom_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/entranceexam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Bbc"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:text="@string/bbc"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:cornerRadius="15dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ZeeBusiness"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:text="@string/zee_business"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:cornerRadius="15dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/AajTak"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:text="@string/aaj_tak"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:cornerRadius="15dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ABPNews"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:text="@string/abp_news"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:cornerRadius="15dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/News24"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:text="@string/news_24"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:cornerRadius="15dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/RepublicTV"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:text="@string/republic_tv"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:cornerRadius="15dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

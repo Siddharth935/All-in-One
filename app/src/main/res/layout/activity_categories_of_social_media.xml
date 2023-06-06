@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".CategoriesOfSocialMedia">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/cutom_toolbar"
+        android:elevation="15dp" />
+
+    <LinearLayout
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="50dp"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:id="@+id/YoutubeVideoDownload"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/academics"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:text="@string/youtube_video_downloader"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+        </androidx.cardview.widget.CardView>
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:elevation="50dp"-->
+<!--            app:cardCornerRadius="20dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/whatsAppSaver"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:background="@drawable/academics"-->
+<!--                android:fontFamily="@font/alegreya_sc"-->
+<!--                android:gravity="center"-->
+<!--                android:text="@string/what_s_app_stats_saver"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="30sp"-->
+<!--                android:textStyle="bold"-->
+<!--                tools:ignore="RtlHardcoded,RtlSymmetry" />-->
+<!--        </androidx.cardview.widget.CardView>-->
+    </LinearLayout>
+</RelativeLayout>

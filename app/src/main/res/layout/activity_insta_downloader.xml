@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="18dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editText"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:boxStrokeColor="@color/black"
+
+            app:hintTextColor="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fbLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/instagram_link_paste"
+                android:inputType="textPersonName"
+                android:layout_gravity="center"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fbDownload"
+                android:layout_width="200dp"
+                android:layout_height="56dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:text="@string/download"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:cornerRadius="15dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:layout_marginTop="15dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fbLinkPaste"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="200dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:text="@string/paste"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:cornerRadius="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
